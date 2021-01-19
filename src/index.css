@@ -1,0 +1,48 @@
+html, body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:16px;
+    color:#222;
+}
+h1{
+    font-size:28px;
+}
+#taskInput{
+    margin-top:20px;
+}
+div#allTask {
+    margin-top: 60px;
+}
+
+.singleTask {
+    min-height: 75px;
+    padding: 5px;
+    background: salmon;
+    position: relative;
+    margin-bottom: 10px;
+}
+.task-control-panel{
+    width: 100%;
+    min-height:40px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.color-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.inner-textarea{
+    resize:none;
+    position: absolute;
+    background:#ddd;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+textarea.inner-textarea:focus {
+    outline: none !important;
+}

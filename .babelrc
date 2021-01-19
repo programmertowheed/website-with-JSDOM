@@ -1,0 +1,6 @@
+{
+    "presets": [
+        // this is for babel 7.x older version 6.x is (babel-preset-env)
+        "@babel/preset-env"
+    ]
+}
